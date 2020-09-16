@@ -1,0 +1,12 @@
+{
+  "name": "insta-bot-puppeteer",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "main": "src/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}
