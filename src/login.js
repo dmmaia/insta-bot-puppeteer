@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 module.exports = async function login(page) {
-    await page.goto('https://www.instagram.com', {timeout:60000});
+    await page.goto('https://www.instagram.com', {timeout:120000});
     
     const USERNAME_SELECTOR = '#loginForm > div > div:nth-child(1) > div > label > input';
     const PASSWORD_SELECTOR = '#loginForm > div > div:nth-child(2) > div > label > input';
